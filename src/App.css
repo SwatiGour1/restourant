@@ -1,0 +1,204 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 1rem;
+  color:white;
+
+}
+nav .navbar-brand{
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color:  yellow;
+}
+ nav .navbar-nav{
+  margin-left: 40rem;
+  padding: .5rem;
+ }
+  .nav-link{
+  font-size: 1.3rem;
+color:white;
+font-weight:bold;
+ }
+ .nav-link:hover{
+  color: yellow;
+ }
+ 
+ .homs .card{
+  border-radius: 0;
+ }
+  .homs .card img{
+  /* background-image: url('router/public/image/food.jpg'); */
+ /* background-color: yellow; */
+  height: 570px;
+  /* position: relative; */
+ } 
+  .quote{
+  font-weight: bold;
+  width: 500px;
+ margin-top: 90px;
+ font-size: 2rem;
+ }
+ .sp{
+  margin-top:2px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: yellow;
+ } 
+.btn{
+  font-size: 1rem;
+  background-color:black;
+  color:white;
+  padding:.5rem;
+  width: 150px;
+}
+.about p{
+  text-align: justify;
+}
+.about img{
+  width: 250px;
+  padding: 1rem;
+}
+.contact .card{
+  width: 30rem;
+}
+.glr {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.button-container {
+  display: flex; /* Use flexbox to center-align buttons */
+  justify-content: center; /* Center-align horizontally */
+  align-items: center; /* Center-align vertically */
+  /* height: 100vh; Set a minimum height for the container, adjust as needed */
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color:yellow;
+  color:black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cardgroup{
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cardgroup .card{
+  margin: 1rem;
+}
+.cardgroup .card img{
+  height: 200px;
+}
+.glrry img{
+  width:270px;
+}
+form{
+  border: 2px solid black;
+  margin-left: 200px;
+  margin-right:70px;
+  padding: 15px;
+  width: 600px;
+}
+form input{
+  width: 500px;
+  padding: 2px;
+}
+form button{
+  width: 120px;
+}
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .button-container {
+      flex-direction: column; /* Stack buttons vertically on smaller screens */
+      align-items: center;
+  }
+}
+@media screen and (min-width:256px) and (max-width:468px){
+  nav .navbar-nav{
+    margin-left:0rem;
+    padding: .5rem;
+   }
+   .quote{
+ font-size: 1.5rem;
+  width: 300px;
+    }
+    .contact .card{
+      width: 20rem;
+    }
+}
+@media screen and (min-width:469px) and (max-width:768px){
+  nav .navbar-nav{
+    margin-left:0rem;
+      margin-left:2rem;
+    
+   }
+   .quote{
+ font-size: 1.5rem;
+ width: 300px;
+       }
+}
+@media screen and (min-width:769px) and (max-width:990px){
+  nav .navbar-nav{
+    margin-left:2rem;
+   }
+}
+@media screen and (min-width:991px) and (max-width:1199px){
+  nav .navbar-nav{
+    margin-left:15rem;
+   }
+}
+/* @media screen and (min-width:1200px) and (max-width:1400px){
+  nav .navbar-nav{
+    margin-left:5rem;
+   }
+} */

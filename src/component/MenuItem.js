@@ -1,0 +1,56 @@
+const menu=[{
+    id:1,
+    title:"Poha",
+    category:"breakfast",
+    img:"image/poha.jpg"
+},
+{
+    id:2,
+    title:"Samosa",
+    category:"breakfast",
+    img:"image/samosa.jpg"
+},
+{
+    id:3,
+    title:"Idli",
+    category:"breakfast",
+    img:"image/idli.jpg"
+},
+{
+    id:4,
+    title:"Aluparatha",
+    category:"lunch",
+    img:"image/aloo.jpg"
+},
+{
+    id:5,
+    title:"Nan and paneer",
+    category:"lunch",
+    img:"image/nn.jpg"
+},
+{
+    id:6,
+    title:"Dalbati",
+    category:"lunch",
+    img:"image/dalbati.jpg"
+},
+{
+    id:7,
+    title:"Khichdi",
+    category:"Dinner",
+    img:"image/khichdi.jpg"
+},
+{
+    id:8,
+    title:"Rice",
+    category:"Dinner",
+    img:"image/rice.jpg"
+},
+{
+    id:9,
+    title:"Pavbhaji",
+    category:"Dinner",
+    img:"image/pavbaji.jpg"
+}
+]
+export default menu;
